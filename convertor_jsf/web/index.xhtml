@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <table border="1" cellpadding="5" cellspacing="5">
+            <tr>
+                <th>Orignale Value</th>
+                <th>##,###.000</th>
+                <th>Out Put</th>
+            </tr>
+            <tr>
+                <th>12345.6789</th>
+                <th><h:outputText value="12345.678">
+                        <f:convertNumber pattern="##,###.0000" ></f:convertNumber>
+                    </h:outputText></th>
+            </tr>
+        </table>
+    </h:body>
+</html>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+    
+    <init-param>
+        <param-name>Number</param-name>
+        <param-value>5</param-value>
+    </init-param>
+    
+    <servlet-name>demo</servlet-name>
+    <servlet-class>demo</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>demo</servlet-name>
+    <url-pattern>/demo</url-pattern>
+</servlet-mapping>
+
+</web-app>
